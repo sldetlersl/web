@@ -1,6 +1,8 @@
-$body-color: slateblue;
-
-body {
-  color: $body-color;
-  font-family: sans-serif;
+@import './header/header.scss';
+@import './constants/constants.scss';
+* {
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    border: none;
 }
