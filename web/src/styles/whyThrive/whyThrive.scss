@@ -1,0 +1,41 @@
+@import '../constants/constants.scss';
+
+.whyThrive {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background: $whyThriveBackground;
+
+  &__wrapper {
+    width: 1140px;
+  }
+
+  &__content {
+    width: 45%;
+    padding: 150px 0 95px 0;
+
+    &-title {
+      padding-bottom: 75px;
+      font-size: 36px;
+      line-height: 27px;
+      letter-spacing: -0.006em;
+      color: $whyThriveFont;
+    }
+
+    &-discription {
+      font-size: 1.5rem;
+      line-height: 35px;
+      color: $whyThriveFont;
+
+      &__small {
+        font-size: 1.23rem;
+        line-height: 29px;
+        color: $whyThriveFont;
+      }
+    }
+  }
+}
