@@ -66,7 +66,7 @@
       letter-spacing: -0.006em;
       color: $helpYouOptionsFont;
 
-      &-weight {
+      &__weight {
         display: flex;
         justify-content: center;
         width: 25%;
@@ -76,20 +76,20 @@
           width: 60%;
           border-top: 1px solid $helpYouOptionsFont;
           margin-top: 75px;
+        }
 
-          li {
-            color: #e9b730;
-            padding-top: 25px;
-            list-style: disc;
+        &-li {
+          color: #e9b730;
+          padding-top: 25px;
+          list-style: disc;
+        }
 
-            span {
-              color: $helpYouOptionsFont;
-            }
-          }
+        &-content {
+          color: $helpYouOptionsFont;
         }
       }
 
-      &-running {
+      &__running {
         display: flex;
         justify-content: center;
         width: 25%;
@@ -99,20 +99,20 @@
           width: 60%;
           border-top: 1px solid $helpYouOptionsFont;
           margin-top: 75px;
+        }
 
-          li {
-            color: #e9b730;
-            padding-top: 25px;
-            list-style: disc;
+        &-li {
+          color: #e9b730;
+          padding-top: 25px;
+          list-style: disc;
+        }
 
-            span {
-              color: $helpYouOptionsFont;
-            }
-          }
+        &-content {
+          color: $helpYouOptionsFont;
         }
       }
 
-      &-pumping {
+      &__pumping {
         display: flex;
         justify-content: center;
         width: 25%;
@@ -122,20 +122,20 @@
           width: 60%;
           border-top: 1px solid $helpYouOptionsFont;
           margin-top: 75px;
+        }
 
-          li {
-            color: #e9b730;
-            padding-top: 25px;
-            list-style: disc;
+        &-li {
+          color: #e9b730;
+          padding-top: 25px;
+          list-style: disc;
+        }
 
-            span {
-              color: $helpYouOptionsFont;
-            }
-          }
+        &-content {
+          color: $helpYouOptionsFont;
         }
       }
 
-      &-pumpingIron {
+      &__pumpingIron {
         display: flex;
         justify-content: center;
         width: 25%;
@@ -145,16 +145,16 @@
           width: 60%;
           border-top: 1px solid $helpYouOptionsFont;
           margin-top: 75px;
+        }
 
-          li {
-            color: #e9b730;
-            padding-top: 25px;
-            list-style: disc;
+        &-li {
+          color: #e9b730;
+          padding-top: 25px;
+          list-style: disc;
+        }
 
-            span {
-              color: $helpYouOptionsFont;
-            }
-          }
+        &-content {
+          color: $helpYouOptionsFont;
         }
       }
     }
