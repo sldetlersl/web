@@ -1,8 +1,17 @@
 @import './header/header.scss';
 @import './constants/constants.scss';
 @import './whyThrive/whyThrive.scss';
+@import './aboutUs/aboutUs.scss';
+
+@font-face {
+  font-family: 'Larsseit';
+  src: url(../fonts/Larsseit.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
 
 * {
+  font-family: 'Larsseit', sans-serif;
   margin: 0;
   text-decoration: none;
   list-style: none;

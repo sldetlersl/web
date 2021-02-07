@@ -1,0 +1,162 @@
+@import '../constants/constants.scss';
+
+.aboutUs {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background: $aboutUsBackground;
+  margin-bottom: 120px;
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  &__content {
+    display: flex;
+    padding: 150px 0 75px 0;
+    width: 1270px;
+
+    &-title {
+      font-size: 1rem;
+      line-height: 23px;
+      letter-spacing: 0.06em;
+      color: $aboutUsContentFont;
+    }
+
+    &-discription {
+      margin: 0 auto;
+      width: 592px;
+      font-size: 24px;
+      font-weight: bold;
+      line-height: 34px;
+      letter-spacing: 0.005em;
+      color: $aboutUsContentFont;
+    }
+  }
+
+  &__helpYou {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: 100%;
+
+    &-title {
+      padding-bottom: 25px;
+      font-size: 16px;
+      line-height: 19px;
+      text-align: center;
+      letter-spacing: 0.06em;
+      color: $helpYouTitleFont;
+    }
+
+    &__options {
+      display: flex;
+      width: 100%;
+      height: 360px;
+      font-size: 32px;
+      font-weight: bold;
+      line-height: 34px;
+      letter-spacing: -0.006em;
+      color: $helpYouOptionsFont;
+
+      &-weight {
+        display: flex;
+        justify-content: center;
+        width: 25%;
+        background: $helpYouOptionsWeightBackground;
+
+        &-ul {
+          width: 60%;
+          border-top: 1px solid $helpYouOptionsFont;
+          margin-top: 75px;
+
+          li {
+            color: #e9b730;
+            padding-top: 25px;
+            list-style: disc;
+
+            span {
+              color: $helpYouOptionsFont;
+            }
+          }
+        }
+      }
+
+      &-running {
+        display: flex;
+        justify-content: center;
+        width: 25%;
+        background: $helpYouOptionsRunningBackground;
+
+        &-ul {
+          width: 60%;
+          border-top: 1px solid $helpYouOptionsFont;
+          margin-top: 75px;
+
+          li {
+            color: #e9b730;
+            padding-top: 25px;
+            list-style: disc;
+
+            span {
+              color: $helpYouOptionsFont;
+            }
+          }
+        }
+      }
+
+      &-pumping {
+        display: flex;
+        justify-content: center;
+        width: 25%;
+        background: $helpYouOptionsPumpingBackground;
+
+        &-ul {
+          width: 60%;
+          border-top: 1px solid $helpYouOptionsFont;
+          margin-top: 75px;
+
+          li {
+            color: #e9b730;
+            padding-top: 25px;
+            list-style: disc;
+
+            span {
+              color: $helpYouOptionsFont;
+            }
+          }
+        }
+      }
+
+      &-pumpingIron {
+        display: flex;
+        justify-content: center;
+        width: 25%;
+        background: $helpYouOptionsPumpingIronBackground;
+
+        &-ul {
+          width: 60%;
+          border-top: 1px solid $helpYouOptionsFont;
+          margin-top: 75px;
+
+          li {
+            color: #e9b730;
+            padding-top: 25px;
+            list-style: disc;
+
+            span {
+              color: $helpYouOptionsFont;
+            }
+          }
+        }
+      }
+    }
+  }
+}
