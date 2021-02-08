@@ -1,0 +1,62 @@
+@import '../constants/constants.scss';
+
+.options {
+  width: 100%;
+
+  &__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    height: 980px;
+  }
+
+  &-items {
+    display: flex;
+    justify-content: center;
+    width: 33.3%;
+    height: 50%;
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 34px;
+    letter-spacing: -0.006em;
+  }
+
+  &-ul {
+    width: 60%;
+    border-top: 1px solid $optionsFont;
+    margin-top: 95px;
+  }
+
+  &-li {
+    color: $optionsMarker;
+    padding-top: 25px;
+    list-style: disc;
+  }
+
+  &-content {
+    color: $optionsFont;
+  }
+
+  &__item__physical {
+    background-color: $optionsPhysicalBackground;
+  }
+
+  &__item__mental {
+    background-color: $optionsMentalBackground;
+  }
+
+  &__item__nutrition {
+    background-color: $optionsNutritionBackground;
+  }
+
+  &__item__gymnastics {
+    background-color: $optionsGymnasticsBackground;
+  }
+
+  &__item__crossfit {
+    background-color: $optionsCrossfitBackground;
+  }
+
+  &__item__aerobics {
+    background-color: $optionsAerobicsBackground;
+  }
+}
