@@ -1,0 +1,62 @@
+@import '../constants/constants.scss';
+
+.contactUs {
+  width: 100%;
+
+  &__wrapper {
+    display: flex;
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    padding: 103px 0 40px 80px;
+    background-color: $contactUsContentBackground;
+
+    &-title {
+      padding-bottom: 230px;
+      font-size: 16px;
+      line-height: 12px;
+      letter-spacing: 0.06em;
+      color: $contactUsContentFontColor;
+    }
+
+    &-subtitle {
+      font-size: 64px;
+      font-weight: bold;
+      line-height: 94px;
+      letter-spacing: -0.01em;
+      color: $contactUsContentFontColor;
+    }
+
+    &-discription {
+      padding: 75px 0 100px 0;
+      width: 60%;
+      font-size: 36px;
+      line-height: 53px;
+      letter-spacing: -0.005em;
+      color: $contactUsContentFontColor;
+    }
+
+    &-link {
+      font-size: 16px;
+      font-weight: bold;
+      line-height: 23px;
+      letter-spacing: 0.1em;
+      color: $contactUsContentLink;
+
+      &:hover {
+        color: $contactUsContentHoverLink;
+      }
+
+      &:active {
+        color: $contactUsContentActiveLink;
+      }
+    }
+  }
+
+  &__image {
+    background-color: $contactUsImageBackground;
+    min-width: 30%;
+  }
+}
