@@ -1,0 +1,78 @@
+@import '../constants/constants.scss';
+
+.footer {
+  width: 100%;
+
+  &__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: $footerBackground;
+  }
+
+  &__image {
+    background-color: $footerImageBackground;
+    min-width: 30%;
+  }
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0 75px 60px;
+
+    &-item {
+      display: flex;
+      flex-direction: column;
+      width: 30%;
+      border-right: 1px solid $footerContentBorder;
+
+      &-title {
+        padding-bottom: 40px;
+        font-size: 14px;
+        line-height: 11px;
+        letter-spacing: -0.006em;
+        color: $footerContentFont;
+      }
+
+      &-discription {
+        padding: 0 0 10px 0;
+        width: 80%;
+        font-size: 14px;
+        line-height: 23px;
+        letter-spacing: -0.006em;
+        color: $footerContentFont;
+        opacity: 0.5;
+
+        &-link {
+          text-decoration: underline;
+        }
+
+        &-list {
+          padding: 0 0 10px 0;
+        }
+      }
+    }
+  }
+
+  &__copyright {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding-left: 10%;
+    background-color: $footerCopyrightBackground;
+    height: 80px;
+
+    &-symbol {
+      padding-top: 5px;
+      color: $footerCopyrightSymbol;
+    }
+
+    &-info {
+      padding-left: 10px;
+      font-size: 14px;
+      line-height: 11px;
+      letter-spacing: -0.006em;
+      color: $footerCopyrightInfoFont;
+    }
+  }
+}
