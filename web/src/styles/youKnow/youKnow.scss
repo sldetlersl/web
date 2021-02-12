@@ -1,0 +1,62 @@
+@import '../constants/constants.scss';
+
+.youKnow {
+  width: 100%;
+  background-color: $youKnowBackground;
+
+  &__wrapper {
+    display: flex;
+  }
+
+  &__image {
+    min-width: 30%;
+    background-color: $youKnowImageBackground;
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    padding-left: 105px;
+
+    &-title {
+      padding-top: 105px;
+      font-size: 16px;
+      line-height: 12px;
+      letter-spacing: 0.06em;
+      color: $youKnowContentFont;
+    }
+
+    &-discription {
+      padding: 225px 0 150px 0;
+      width: 70%;
+      font-size: 36px;
+      font-weight: bold;
+      line-height: 53px;
+      letter-spacing: -0.01em;
+      color: $youKnowContentFont;
+
+      &-link {
+        &:hover {
+          color: $youKnowLogoLinkHoverColor;
+        }
+      }
+    }
+
+    &-link {
+      padding-bottom: 40px;
+      font-size: 16px;
+      font-weight: bold;
+      line-height: 23px;
+      letter-spacing: 0.1em;
+      color: $youKnowBottomLink;
+
+      &:hover {
+        color: $youKnowBottomLinkHoverColor;
+      }
+
+      &:active {
+        color: $youKnowBottomLinkActiveColor;
+      }
+    }
+  }
+}
